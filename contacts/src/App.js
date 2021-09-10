@@ -8,7 +8,6 @@ function App() {
       <Header>
         <h1>Contacts</h1>
       </Header>
-      <SearchBar />
       <Contacts />
     </Container>
   )
@@ -17,9 +16,7 @@ function App() {
 const Container = styled.div``
 
 const Header = styled.header`
-  max-width: 80%;
-  min-width: 80%;
-  margin: auto;
+max-width: 100%
   background: rgb(16, 183, 203);
   background: linear-gradient(
     90deg,
